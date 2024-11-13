@@ -1,4 +1,4 @@
-# Desafío - Sugerencia de videos
+# ⚡ Desafío - Sugerencia de videos
 
 💡 Realizado [cristiandpto23](https://github.com/cristiandpto23) con HTML, CSS y JS.<br>
 ℹ Front-End G17 - Desafío Latam<br>
