@@ -53,7 +53,7 @@ class Reproductor extends Multimedia {
 }
 
 // Creamos instancias de la clase Reproductor para cada video
-const musica = new Reproductor('https://www.youtube.com/embed/6VBU2sghNf8', 'musica');
+const musica = new Reproductor('https://www.youtube.com/embed/S6vnM9I7HIo', 'musica');
 const peliculas = new Reproductor('https://www.youtube.com/embed/jXXBQpV6Gvw', 'peliculas');
 const series = new Reproductor('https://www.youtube.com/embed/JluMdKGsiiI', 'series');
 
@@ -63,5 +63,5 @@ peliculas.playMultimedia();
 series.playMultimedia();
 
 // Establecemos el tiempo de inicio de los videos
-musica.setInicio(29);
+musica.setInicio(37);
 peliculas.setInicio(3062);

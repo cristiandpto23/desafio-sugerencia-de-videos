@@ -1,8 +1,8 @@
 # Desafío - Sugerencia de videos
 
-💡 Realizado [cristiandpto23](https://github.com/cristiandpto23) con HTML, CSS y JS<br>
+💡 Realizado [cristiandpto23](https://github.com/cristiandpto23) con HTML, CSS y JS.<br>
 ℹ Front-End G17 - Desafío Latam<br>
-🔗 Desplegado en GitHub Pages [aquí](#)
+🔗 Desplegado en GitHub Pages [aquí](https://cristiandpto23.github.io/desafio-sugerencia-de-videos/)
 
 ## Introducción
 
@@ -12,12 +12,12 @@ En este desafío validaremos nuestros conocimientos de Polimorfismo, Patrón de 
 
 Un nuevo cliente necesita un sitio web que muestre sugerencias de vídeos, por el momento,  requiere que se muestre una sola sugerencia por categoría, siendo las categorías: Música,  Película y Serie. Estas categorías estarán ubicadas en un menú colapsable, permitiendo  mostrar una categoría a la vez con un solo clic o también ocultar todas las categorías. Por  ende, lo que debe aparecer en cada categoría es un vídeo, puede ser desde cualquier  repositorio en la nube o incrustado de forma local. Pero cada vídeo debe hacer referencia a  la categoría a la cual se hace un click. Como se muestra a continuación:
 
-![alt text](image.png)
-![alt text](image-1.png)
+<p align="center"><img src="image.png"></p>
+<p align="center"><img src="image-1.png"></p>
 
 La url para estos videos será insertada  dinámicamente desde JavaScript implementando clases, polimorfismo, closures y patrón  módulo. Partiendo del siguiente diagrama de clases:
 
-![alt text](image-2.png)
+<p align="center"><img src="image-2.png"></p>
 
 
 ## Requerimientos
@@ -32,8 +32,6 @@ La url para estos videos será insertada  dinámicamente desde JavaScript implem
     - Recibir la propiedad url, la cual será el atributo src que necesite la etiqueta iframe para mostrar el video.
     - Proteger el atributo de la clase implementando closures.
     - Agregar un método denominado "setInicio", que retorne el siguiente mensaje: "Este método es para realizar un cambio en la URL del video".
-
-![alt text](image.png)
 
 3. Crear una clase "Reproductor", siendo hija de la clase padre Multimedia para:
 
